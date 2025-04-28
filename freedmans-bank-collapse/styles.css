@@ -84,6 +84,6 @@ figcaption {
     padding: 2px;
     text-align: center;
     font-size: 15px;
-    line-height: 0;
+    line-height: 1.4;
     color: #594938;
 }  
