@@ -1,13 +1,18 @@
-img, p, h1, h2, .divider {
+img, p, h1, h2, .divider, #subtitle {
 	width: 100%;
 	max-width: 640px;
     margin-left: auto;
     margin-right: auto;
 } 
 
+h2 {
+    color: #231f20;
+}
+
 img {
 	display: block;
     padding: 15px 0px;
+    border: 0;
 }
 
 p {
@@ -22,16 +27,63 @@ h1, h2{
 
 .divider {
     height: 2px;
-    background-color: #0868ac;
+    background-color: #231f20;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 #subtitle{
-    font-size: 25px;
-    color: gray;
+    font-size: 18px;
+    color: #594938;
+    line-height: 0;
+}
+
+#datesubtitle{
+    font-size: 15px;
+    line-height: 0;
+    color: #594938;
+}
+
+#footnote{
+    font-size: 18px;
+    color: #594938;
+    line-height: 1;
 }
 
 #wide{
 	max-width: 900px;
 }
+
+#map{
+    max-width: 750px;
+}
+
+#emma{
+    max-width: 300px;
+    line-height: 0;
+}
+
+#barchart{
+    max-width: 1150px;
+}
+
+#records{
+    max-width: 1150px;
+}
+
+#beau{
+    max-width: 1300px;
+}
+
+a {
+    color: #594938;
+}
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 0;
+    color: #594938;
+}  
